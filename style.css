@@ -1,0 +1,19 @@
+p{
+    color:blue;
+    font-size:40px;
+
+}
+.center{
+
+    color: chartreuse;
+    text-align: center;
+}
+#p1{
+    font-style: italic;
+    color: darkblue;
+}
+#p2{
+    background-color: darkgoldenrod ;
+
+    
+}
