@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style text-align:center;>
-    </style>
-    <p>SỞ THÍCH CỦA BẠN</p>
-    <form>
-        <input type="text"/><br/>
+    <div id="frm" >
+        <h2>SỞ THÍCH CỦA BẠN</h2>
+        <form action="/action_page.php" method="POST">
+            Họ và Tên:
+            <input name="Họ và Tên" type="text"><br>
+            Email:
+            <input name="email" type="text"><br>
+            Sở Thích:
+            <label><input name="hobby" value="travel" type="checkbox" >Du lịch</label>
+            <label><input name="hobby" value="Music" type="checkbox" >Âm nhạc</label>
+            <label><input name="hobby" value="Book=" type="checkbox" >Đọc sách</label><br>
+            <label><input name="hobby" value="web" type="checkbox" >Lướt web</label>
+            <label><input name="hobby" value="game" type="checkbox" >Chơi game</label>
+            <label><input name="hobby" value="cine" type="checkbox" >Điện ảnh</label><br>
+            <input type="submit" value="Gửi thông tin"/>
+            <input type="reset" value="reset"/>
 
-    </form>
+
+        </form>
+    </div>
 </body>
 </html>
