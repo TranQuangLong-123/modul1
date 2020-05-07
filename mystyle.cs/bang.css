@@ -1,0 +1,15 @@
+
+.tab{
+    background-color: darkgoldenrod;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+h1{
+    margin-left:15%;
+    color: darkred;
+}
+.td1{  text-align: right;
+}
